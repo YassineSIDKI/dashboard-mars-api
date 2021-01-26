@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js start
+
+PATH: 
+  /usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/usr/local/opt/openssl/bin:/usr/local/opt/openssl/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/usr/local/opt/openssl/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/administrateur/chromedriver:/Users/administrateur/Library/Android/sdk/tools:/Users/administrateur/Library/Android/sdk/platform-tools:/usr/local/Cellar/openssl/1.0.2l:/usr/local/share/dotnet/sdk/2.0.0/:/Users/administrateur/Library/apache-maven-3.5.3/bin/:/Users/administrateur/chromedriver:/Users/administrateur/Library/Android/sdk/tools:/Users/administrateur/Library/Android/sdk/platform-tools:/usr/local/Cellar/openssl/1.0.2l:/usr/local/share/dotnet/sdk/2.0.0/:/Users/administrateur/Library/apache-maven-3.5.3/bin/
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.18.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/administrateur/Projects/nd032-c2-functional-programming-with-javascript-starter/project/package.json: Unexpected token ^ in JSON at position 381
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "jsnd3_mars_dashboard",
+    "version": "1.0.0",
+    "description": "course project",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node src/server/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "immu "^4.0.0-rc.12",
+      "node-fetch": "table":^2.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
